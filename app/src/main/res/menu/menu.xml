@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/zasady"
+        android:iconTint="#FFFFFF"
+        android:title="Zasady"
+        android:icon="@drawable/ic_zasady"
+        />
+
+    <item
+        android:id="@+id/trening"
+        android:title="Trening"
+        android:icon="@drawable/ic_trening"
+        />
+
+    <item
+        android:id="@+id/historia"
+        android:title="Historia"
+        android:icon="@drawable/ic_historia"
+        />
+
+</menu>

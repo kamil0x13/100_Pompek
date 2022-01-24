@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MaxPowtorzenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maxPowtorzen"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/maxPowtorzenText"
+        android:padding="10dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/maxPowtorzenTrescText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maxPowtorzenTresc"
+        android:layout_below="@+id/maxPowtorzenText"
+        android:padding="5dp"
+        android:textSize="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/maxPowtorzenInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Maksymalna ilość powtórzeń"
+        android:layout_below="@+id/maxPowtorzenTrescText"
+        android:padding="10dp"
+        app:helperTextEnabled="true"
+        app:helperText="Jeśli nie jesteś w stanie wykonać 5 poprawnych pompek zacznij od pompke na kolanach."
+        app:errorEnabled="true"
+        app:errorContentDescription="Podaj liczbę z przedziału 5-100!!"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/maxPowtorzenEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/maxPowtorzenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Zaczynamy"
+        android:layout_below="@+id/maxPowtorzenInputLayout"
+        />
+
+
+</RelativeLayout>

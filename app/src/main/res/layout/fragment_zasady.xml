@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Zasady"
+        android:textSize="30dp"
+        android:id="@+id/zasadyTitleText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/zasadyTitleText"
+        android:padding="10dp"
+        android:text="@string/zasadyWazne"
+        android:textSize="25dp"
+        android:id="@+id/zasadyWazneTitleText"/>
+
+    <TextView
+        android:id="@+id/zasadyWazneTrescText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zasadyWazneTitleText"
+        android:padding="5dp"
+        android:text="@string/zasadyWazneTresc"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/zasadyWazneTrescText"
+        android:padding="10dp"
+        android:text="@string/jakRobicPompki"
+        android:textSize="25dp"
+        android:id="@+id/jakRobicPompkiText"/>
+
+    <TextView
+        android:id="@+id/jakRobicPompkiTrescText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jakRobicPompkiText"
+        android:padding="5dp"
+        android:text="@string/jakRobicPompkiTresc"
+        android:textSize="20dp" />
+
+</RelativeLayout>

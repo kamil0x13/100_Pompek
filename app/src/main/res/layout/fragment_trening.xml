@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/cytatTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/dataTextView"
+        />
+    <TextView
+        android:id="@+id/wykonaneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/cytatTextView"
+        />
+
+    <TextView
+        android:id="@+id/dzisiajTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/wykonaneTextView"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/zaczynamyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="Zaczynamy!!!"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_below="@+id/dzisiajTextView"
+        />
+
+
+
+</RelativeLayout>

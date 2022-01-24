@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">100 Pompek</string>
+
+    //------------MAX POWTORZEN-------------------------
+    <string name="maxPowtorzen">Dostosowanie poziomu</string>
+    <string name="maxPowtorzenTresc">Wystarczy, że wykonasz za jednym razem tyle pompek ile tylko możesz. \n
+        Pamiętaj tylko, aby wykonywać pompki jak najbardziej poprawnie. \n
+        Pamiętaj również o rozgrzewce – rozciąganie, wymachy i skręty tułowia będą naprawdę przydatne, a jeśli jesteś już w dobrej kondycji rozważ zrobienie kilku wstępnych pompek na rozruch. \n
+        Poprawnie wykonany test całkowicie Cię zmęczy i pozostawi leżącego na podłodze z rękoma jak z waty.
+    </string>
+
+
+    //--------------------------- Zasady -------------------------
+    <string name="zasadyWazne">Wszystko co musisz wiedzieć</string>
+    <string name="zasadyWazneTresc">1.Nie opuszczaj treningów!! \n2.Trenujesz co drugi dzień. \n3.Powodzenia.</string>
+
+    <string name="jakRobicPompki">Jak dobrze wykonać pompkę</string>
+    <string name="jakRobicPompkiTresc">
+        1.Połóż się płasko na brzuchu.
+        \n2.Umieść dłonie płasko na ziemi na wysokości barków, troszkę szerzej niż szerokość Twoich barków.
+        \n3.Utrzymuj ciało w pozycji wyprostowanej.
+        \n4.Unieś ciało do góry rozprostowując ramiona, wciąż utrzymując ciało w pozycji wyprostowanej. Unikaj tendencji wyginania tułowia do tyłu.
+        \n5.Ciało powinno opierać się teraz jedynie na dłoniach i palcach stóp, będąc cały czas w pozycji wyprostowanej.
+        \n6.Kolejne pompki wykonuj poprzez unoszenie i opuszczanie ciała jedynie poprzez zginanie i rozprostowywanie ramion.
+        \n7.Nie kładź się na ziemi pomiędzy pompkami. Od pierwszej do ostatniej pompki kontakt z podłożem powinny mieć tylko palce u stóp i dłonie.
+    </string>
+
+    <string name="zasadyPlanTreningowyTitle">Szczegóły działania aplikcaji</string>
+    <string name="zasadyPlanTrenigowy">
+        Plan został dobrany do ilości powturzeń które podałeś przy pierwszym urucomienu aplikacj. \n
+        Każdy kolejny w pełni wykonany trening zwieksza poziom trudnośi, im więcej razy z rzędu udało ci się osiągnąć cel tym szybszy będzie wzrost poziomu trudności. \n
+        Gdy nie uda ci się w pełni wykonać treningu poziom trudności nie zostanie zwiekszony.
+    </string>
+</resources>

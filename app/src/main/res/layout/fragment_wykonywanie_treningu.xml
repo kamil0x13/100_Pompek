@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WykonywanieTreninguFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="30dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/powtorzeniaDoWykonaniaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titleTextView"
+        android:text="Powtórzenia do wykonania"
+        />
+
+    <TextView
+        android:id="@+id/ilePowtorzenTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/powtorzeniaDoWykonaniaTextView"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/wykonalemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ilePowtorzenTextView"
+        android:text="Wykonałem:)"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nieDalemRadyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/wykonalemButton"
+        android:text="Nie dałem rady:("
+        />
+
+</RelativeLayout>

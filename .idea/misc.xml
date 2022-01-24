@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_historia.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher2_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_trening.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_zasady.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_historia.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_max_powtorzen.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_przerwa.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_trening.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_wykonywanie_treningu.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_zasady.xml" value="0.144" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragmeny_zasady.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher2.xml" value="0.2703125" />
+        <entry key="..\:/Users/pietr/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher2_round.xml" value="0.14635416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
